@@ -1,6 +1,8 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2000
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mercadopago", "mercadopago.csproj", "{9FBE5D72-F96C-4319-9AC0-47045C93423A}"
 EndProject
 Global
@@ -13,6 +15,12 @@ Global
 		{9FBE5D72-F96C-4319-9AC0-47045C93423A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9FBE5D72-F96C-4319-9AC0-47045C93423A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9FBE5D72-F96C-4319-9AC0-47045C93423A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E9DC2429-28F4-41D7-BBDF-B9EFE2510411}
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = mercadopago.csproj

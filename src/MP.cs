@@ -307,15 +307,16 @@ namespace mercadopago {
 			Hashtable preapprovalPaymentResult = RestClient.get ("/preapproval/"+id+"?access_token="+accessToken);
 			return preapprovalPaymentResult;
 		}
-		
-		/**
-		 * Generic resource get
-		 * @param uri
-		 * @param parameters
-		 * @param authenticate
-		 * @return
-		 */
-		public Hashtable get (String uri, Dictionary<String, String> parameters, bool authenticate) {
+
+        
+        /// <summary>
+        /// Generic resource get
+        /// </summary>
+        /// <param name="uri"></param>
+        /// <param name="parameters"></param>
+        /// <param name="authenticate"></param>
+        /// <returns></returns>
+        public Hashtable get (String uri, Dictionary<String, String> parameters, bool authenticate) {
 			if (parameters == null) {
 				parameters = new Dictionary<String, String> ();
 			}
